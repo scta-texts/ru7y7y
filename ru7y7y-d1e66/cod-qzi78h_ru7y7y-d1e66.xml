@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Questio de latitudine creabilium specierum [Basel A X 44 Transcription]</title>
+        <author>Stephanus de Entzendorf</author>
+        <respStmt>
+          <name>M. Stephani</name>
+          <resp>Core transcription</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>Contribution to diplomatic transcriptions; TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Questio de latitudine creabilium specierum [Basel A X 44 Transcription]</title>
+          <date when="2019-07-29">July 29, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-qzi78h">Basel A X 44</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ru7y7y-d1e66">
+        <head xml:id="ru7y7y-d1e66-Hd1e104">Questio de latitudine creabilium specierum</head>
+        <head xml:id="ru7y7y-d1e66-Hd1e107" type="question-title">Utrum in latitudine creabilium specierum sit dare summam citra
+          Deum</head>
+        <p xml:id="ru7y7y-d1e66-d1e110">
+          <lb ed="#B" n="1"/>Utrum in latitudine creabilium specierum sit dare summam citra deum
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e113">
+          arguitur quod sic 
+          <lb ed="#B"/>quia in latitudine creatarum specierum est dare summam citra deum <pc type="#punctus"/> igitur in latitudine etc
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e116">
+          <lb ed="#B"/>consequentia tenet ex hoc quia deus non est minus potens respectu creabilium specierum quam respectu creatarum 
+          <lb ed="#B"/>de facto <pc type="#punctus"/> alias oporteret dicere quod respectu aliquarum creatarum deus esset minus potens <pc type="#punctus"/> 
+          <lb ed="#B"/>quam respectu aliarum et antecedens patet quia angelica species est summa de facto citra genus super substantie <pc type="#punctus"/> 
+          <lb ed="#B"/>Similiter in latitudine specierum accidentis est dare summam de facto citra genus substantie <pc type="#punctus"/>
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e120">
+          <pc type="#pilcrow"/>Oppositum 
+          <lb ed="#B"/>arguitur quia cum deus sit infinite perfectionis et processus in gradibus specificis est secundum 
+          <lb ed="#B"/>imitabilitatem divinam <pc type="#punctus"/> sed deus non potest imitari tante ab aliqua creatura quin potest 
+          <lb ed="#B"/>perfectius imitari et sic in infinitum igitur questio falsa
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e123">
+          pro responsione ad questionem premitto 
+          <lb ed="#B"/>4or suppositiones deinde ponam conclusiones cum corolariis ad quesitum responsivas <pc type="#pilcrow"/> prima suppositio 
+          <lb ed="#B"/>est ista Omnis excessus est formaliter uel virtualiter divisibilis patet ista quia alias 
+          <lb ed="#B"/>non haberet rationem excessus nisi haberet rationem quantitatis
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e126">
+          2a suppositio <pc type="#punctus"/> Quod infinite 
+          <lb ed="#B"/>sunt uel possunt esse denominationes essentiales <pc type="#punctus"/> diversarum rationum <pc type="#punctus"/> patet ista 
+          <lb ed="#B"/>in speciebus numerorum <seg type="correction">q<subst><del rend="strikethrough">uia</del><add place="in-line">ue</add></subst></seg> vadunt in infinitum <pc type="#punctus"/>
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e129">
+          3a suppositio Quod quamvis differentia 
+          <lb ed="#B"/>rerum specifica a priori teneat se a parte dei <pc type="#punctus"/> non tamen oritur ex distinctione 
+          <lb ed="#B"/>rationum ydealium in eodem <pc type="#punctus"/> Patet <pc type="#punctus"/> quia non est unum a priori differentia talis possit 
+          <lb ed="#B"/>haberi nisi ex parte prime cause <pc type="virgula">/</pc> 2a pars patet <pc type="#punctus"/> quia non est distinctio rerum ydealium in 
+          <lb ed="#B"/>deo <pc type="#punctus"/>
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e132">
+          4a suppositio Quod quelibet essentialium perfectionum est in infinitum secundum magis uel 
+          <lb ed="#B"/>minus comunicabilis patet quia <add place="above-line">quod</add> suscipit magis et minus infinite suscipit augmentative 
+          <lb ed="#B"/>uel diminutive
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e135">
+          <!-- prima conclusio as red reburic above and in left margin as note and right margin as note-->
+          <lb ed="#B"/>Quamvis tota latitudo creabilium specierum substantie et accidentis sit terminabilis exclusive neutra 
+          <lb ed="#B"/>tamen est terminabilis ultimate inclusiue probatur illa conclusio quia latitudo speciei accidentis terminatur 
+          <lb ed="#B"/>exclusiue ad totum genus substantiae infra quod est perfectionaliter similiter totalis latitudo creabilium
+          <lb ed="#B"/>specierum substantie exclusive terminatur ad deum igitur prima pars conclusionis vera <pc type="#punctus"/> 2a pars <unclear>probatur<!-- not sure this is correct --></unclear> patet ex 
+          <lb ed="#B"/>suppositionibus premissis <pc type="#punctus"/> quia quelibet species utriusque latitudinis excedit vel exceditur divisibiliter 
+          <lb ed="#B"/>respectu terminorum exclusivorum <pc type="#punctus"/> igitur inter quamcumque speciem creabilem et deum potest esse species 
+          <lb ed="#B"/>media et ita inter quamlibet vel non gradum perfectionis simpliciter
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e139">
+          <pc type="#pilcrow"/>primum corrolarium <pc type="#punctus"/> Quod 
+          <lb ed="#B"/>quamvis sint extreme species accidentis et substantie de facto <pc type="#punctus"/> non tamen de possibili absoluto
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e142">
+          <pc type="#pilcrow"/>2m corrolarium 
+          <lb ed="#B"/>quod totalis latitudo creabilium specierum habet se per <unclear>modum <!-- looks like "modi" --></unclear> continui <pc type="#punctus"/> patet quia inter quaslibet 
+          <lb ed="#B"/>duas species ex prima suppositione <pc type="#punctus"/> possunt esse infinite medie
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e145">
+          <pc type="#pilcrow"/>3m <unclear>correlarium<!-- why corrElarium here and corrOlarium above --></unclear> Quamvis deus 
+          <lb ed="#B"/>sciat supremam et infinitam speciem de facto nesciret tamen supremam creabilem
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e148">
+          <lb ed="#B"/><pc type="#pilcrow"/>4m corrolarium licet a deo quelibet species creabilis possit poni in esse <pc type="#punctus"/> tamen non sit latitudo specierum 
+          <lb ed="#B"/>creabilium totalis
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e151">
+          <!-- conclusio 2a left margin, above, and right margin -->
+          <lb ed="#B"/>Quamvis in infinitum perfectam speciem deus potest ad extra producere <pc type="#punctus"/> nulla tamen est vel esse potest 
+          <lb ed="#B"/>species creata infinita simpliciter prima pars patet ex prima conclusione et corolariis 2a pars patet <pc type="#punctus"/> quia alias 
+          <lb ed="#B"/>potest esse creatura omniquaque infinita <pc type="#punctus"/> 
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e154">
+          Corrolarium primum Quamvis qualibet specie creabili data 
+          <lb ed="#B"/>deus potest in infinitum perfectiorem producere <pc type="#punctus"/> quelibet tamen species creabilis respectu dei est in infinitum 
+          <pb ed="#B" n="1-v"/>
+          <lb ed="#B"/>modice perfectionis
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e158">
+          <pc type="virgula">//</pc> 2m <unclear>corollarium <!-- why two "ll" here and one "l" above in previous instances --></unclear> Quamvis quelibet creabilis species in infinitum distaret a perfectione 
+          <lb ed="#B"/>dei <pc type="#punctus"/> tamen una est et dicitur essentialiter perfectior alia
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e161">
+          <pc type="virgula">//</pc> 3m corollarium <pc type="#punctus"/> Quantum evidenter ex 
+          <lb ed="#B"/>subordinatione causarum potest <unclear>argui<!-- possible correction here --></unclear> una prima causa <pc type="#punctus"/> ita ex subordinatione essentialium 
+          <lb ed="#B"/>perfectionum potest argui una perfectio summa
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e164">
+          <pc type="virgula">//</pc> 4m corollarium Quod deus potest se 
+          <lb ed="#B"/>plus ad extrema communicare durative <pc type="#punctus"/> quam perfective <pc type="#punctus"/> quia potest producere rem infinite 
+          <lb ed="#B"/>durationis simpliciter et non perfectionis simpliciter
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e167">
+          <!-- 3a conclusio in left margin -->
+          <lb ed="#B"/>Quamvis omni accidentium species sint perfective subiectorum suorum <pc type="#punctus"/> tamen subiective perfectiones 
+          <lb ed="#B"/>determinant sibi proportionaliter accidentium species nobiliores prima pars patet <pc type="#punctus"/> quia generaliter 
+          <lb ed="#B"/>actus est perfectius potentie subiective igitur 2a pars patet <pc type="#punctus"/> quia nobiliorium perfectibilium sunt
+          <lb ed="#B"/>perfectiones nobiliores accidentales
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e172">
+          <pc type="virgula">//</pc>corollarium primum <pc type="#punctus"/> Quod ex nobilitate specierum substantie 
+          <lb ed="#B"/>arguitur nobilitas specierum accidentis
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e175">
+          <pc type="virgula">//</pc> 2m <pc type="#punctus"/> si deus esset capax et accidentis 
+          <lb ed="#B"/>subiective ipsum esset nobilius omni accidente creature communicabili
+        </p>
+        <p xml:id="ru7y7y-d1e66-d1e179">
+          <pc type="virgula">//</pc> 3m corollarium <pc type="#punctus"/> quod sequitur 
+          <lb ed="#B"/>ex tota positione <pc type="#punctus"/> Quod questio est falsa simpliciter ut proponitur
+        </p>
+        <!--  * infinitum potest aug<ment>ari numeris Physicorum add.glos.in sinistra marg. cod.
+        ** necesse est dividi excellentes in excellentia et id <quod> excellitur. Unde excedens et excessum debet semper in aliquo convenire, quarto Physicorum add.glos.in dextera marg. cod.-->
+      </div>
+    </body>
+  </text>
+</TEI>

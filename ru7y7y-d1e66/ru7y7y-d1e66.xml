@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Questio de latitudine creabilium specierum</title>
+        <author>Stephanus de Entzendorf</author>
+        <editor>M. Stephani</editor>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Questio de latitudine creabilium specierum</title>
+          <date when="2019-07-29">July 29, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-qzi78h">Basel A X 44</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ru7y7y-d1e66">
+        <head xml:id="ru7y7y-d1e66-Hd1e104">Questio de latitudine creabilium specierum</head>
+        <head xml:id="ru7y7y-d1e66-Hd1e107" type="question-title">Utrum in latitudine creabilium specierum sit dare summam citra
+          Deum</head>
+        <p xml:id="ru7y7y-d1e66-d1e110">Utrum in latitudine creabilium specierum sit dare summam citra Deum.</p>
+        <p xml:id="ru7y7y-d1e66-d1e113">Arguitur quod sic quia in latitudine creatarum specierum est dare summam citra Deum,
+          igitur in latitudine etc.</p>
+        <p xml:id="ru7y7y-d1e66-d1e116">Consequentia tenet, ex hoc quia Deus non est minus potens respectu creabilium specierum
+          quam respectu creatarum de facto, alias oporteret dicere quod respectu aliquarum creatarum
+          Deus esset minus potens quam respectu aliarum. Et antecedens patet, quia angelica species
+          est summa de facto citra genus supersubstantie. Similiter, in latitudine specierum
+          accidentis est dare summam de facto citra genus substantie.</p>
+        <p xml:id="ru7y7y-d1e66-d1e120">Oppositum arguitur, quia, cum Deus sit infinite perfectionis, et processus in gradibus
+          specificis est secundum imitabilitatem divinam; sed Deus non potest imitari tante ab
+          aliqua creatura quin potest perfectius imitari, et sic in infinitum; igitur questio
+          falsa.</p>
+        <p xml:id="ru7y7y-d1e66-d1e123">Pro responsione ad questionem premitto quattor suppositiones, deinde ponam conclusiones
+          cum corolariis ad quesitum responsivas. Prima suppositio est ista: Omnis excessus est
+          formaliter uel virtualiter divisibilis; patet ista, quia alias non haberet rationem
+          excessus, nisi haberet rationem quantitatis.</p>
+        <p xml:id="ru7y7y-d1e66-d1e126">Secunda suppositio: quod infinite sunt uel possunt esse denominationes essentiales
+          diversarum rationum. Patet ista in speciebus numerorum que vadunt in infinitum.</p>
+        <p xml:id="ru7y7y-d1e66-d1e129">Tertia suppositio: quod, quamvis differentia rerum specifica a priori teneat se a parte
+          Dei, non tamen oritur ex distinctione rationum ydealium in eodem. Patet, quia non est unum
+          a priori differentia talis possit haberi nisi ex parte prime cause. Secunda pars patet,
+          quia non est distinctio rerum ydealium in Deo.</p>
+        <p xml:id="ru7y7y-d1e66-d1e132">Quarta suppositio: quod quelibet essentialium perfectionum est in infinitum secundum
+          magis uel minus comunicabilis. Patet, quia quod suscipit magis et minus infinite suscipit
+          augmentative uel diminutive.</p>
+        <p xml:id="ru7y7y-d1e66-d1e135">Prima conclusio : quamvis tota latitudo creabilium specierum substantie et accidentis sit
+          terminabilis exclusive, neutra tamen est terminabilis ultimate inclusiue. Probatur illa
+          conclusio, quia latitudo speciei accidentis terminatur exclusiue ad totum genus
+          substantiae, infra quod est perfectionaliter. Similiter, totalis latitudo creabilium
+          specierum substantie exclusive terminatur ad Deum. Igitur prima pars conclusionis vera.
+          Secunda pars probatur. Patet ex suppositionibus premissis, quia quelibet species utriusque
+          latitudinis excedit vel exceditur divisibiliter respectu terminorum exclusivorum, igitur
+          inter quamcumque speciem creabilem et Deum potest esse species media, et ita inter
+          quamlibet vel non gradum perfectionis simpliciter.</p>
+        <p xml:id="ru7y7y-d1e66-d1e139">Primum corrolarium: quod, quamvis sint extreme species accidentis et substantie de facto,
+          non tamen de possibili absoluto.</p>
+        <p xml:id="ru7y7y-d1e66-d1e142">Secundum corrolarium: quod totalis latitudo creabilium specierum habet se per modum
+          continui. Patet, quia inter quaslibet duas species, ex prima suppositione, possunt esse
+          infinite medie.</p>
+        <p xml:id="ru7y7y-d1e66-d1e145">Tertium correlarium: quamvis Deus sciat supremam et infinitam speciem de facto, nesciret
+          tamen supremam creabilem.</p>
+        <p xml:id="ru7y7y-d1e66-d1e148">Quartum corrolarium: licet a Deo quelibet species creabilis possit poni in esse, tamen
+          non sit latitudo specierum creabilium totalis.</p>
+        <p xml:id="ru7y7y-d1e66-d1e151">Conclusio secunda : quamvis in infinitum perfectam speciem Deus potest ad extra
+          producere, nulla tamen est vel esse potest species creata infinita simpliciter. Prima pars
+          patet ex prima conclusione et corolariis. Secunda pars patet, quia alias potest esse
+          creatura omniquaque infinita.</p>
+        <p xml:id="ru7y7y-d1e66-d1e154">Corrolarium primum: quamvis, qualibet specie creabili data, Deus potest in infinitum
+          perfectiorem producere, quelibet tamen species creabilis respectu Dei est in infinitum [1
+          v] modice perfectionis.</p>
+        <p xml:id="ru7y7y-d1e66-d1e158">Secundum corollarium: quamvis quelibet creabilis species in infinitum distaret a
+          perfectione Dei, tamen una est et dicitur essentialiter perfectior alia.</p>
+        <p xml:id="ru7y7y-d1e66-d1e161">Tertium corollarium: quantum evidenter ex subordinatione causarum potest argui una prima
+          causa, ita ex subordinatione essentialium perfectionum potest argui una perfectio
+          summa.</p>
+        <p xml:id="ru7y7y-d1e66-d1e164">Quartum corollarium: quod Deus potest se plus ad extrema communicare durative quam
+          perfective, quia potest producere rem infinite durationis simpliciter et non perfectionis
+          simpliciter.</p>
+        <p xml:id="ru7y7y-d1e66-d1e167"><supplied>Tertia conclusio</supplied> : quamvis omni accidentium species sint perfective
+          subiectorum suorum, tamen subiective perfectiones determinant sibi proportionaliter
+          accidentium species nobiliores. Prima pars patet, quia generaliter actus est perfectius
+          potentie subiective, igitur. Secunda pars patet, quia nobiliorium perfectibilium sint
+          perfectiones nobiliores accidentales.</p>
+        <p xml:id="ru7y7y-d1e66-d1e172">Corollarium primum: quod ex nobilitate specierum substantie arguitur nobilitas specierum
+          accidentis.</p>
+        <p xml:id="ru7y7y-d1e66-d1e175">Secundum: si Deus esset capax et accidentis subiective, ipsum esset nobilius omni
+          accidente creature communicabili.</p>
+        <p xml:id="ru7y7y-d1e66-d1e179">Tertium corollarium: quod sequitur ex tota positione, quod questio est falsa simpliciter,
+          ut proponitur.</p>
+        <!--  * infinitum potest aug<ment>ari numeris Physicorum add.glos.in sinistra marg. cod.
+        ** necesse est dividi excellentes in excellentia et id <quod> excellitur. Unde excedens et excessum debet semper in aliquo convenire, quarto Physicorum add.glos.in dextera marg. cod.-->
+      </div>
+    </body>
+  </text>
+</TEI>
