@@ -4,6 +4,8 @@
       <titleStmt>
         <title>Questio de latitudine creabilium specierum [Basel A X 44 Transcription]</title>
         <author>Stephanus de Entzendorf</author>
+        <editor>Andrei Marinca</editor>
+        <editor>Isabela Stoian</editor>
         <respStmt>
           <name>M. Stephani</name>
           <resp>Core transcription</resp>
@@ -20,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>SCTA</authority>
+        <authority><ref target="http://rise-ubb.com/">RISE Project PN-III-P4-ID-PCCF-2016-0064</ref></authority>
         <availability status="free">
           <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
